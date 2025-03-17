@@ -1,0 +1,107 @@
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 0.5rem;
+  background-image: url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-valeriya-1833349.jpg-IoqGpaqoRmosD7HAjBAElD2yZx6EXi.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #2e3532;
+  letter-spacing: 0.05em;
+}
+
+.desktop-menu {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .desktop-menu {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .desktop-menu button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #2e3532;
+    transition: color 0.3s;
+  }
+
+  .desktop-menu button:hover {
+    color: #d64550;
+  }
+
+  .mobile-menu-button {
+    display: none;
+  }
+}
+
+.mobile-menu-button {
+  font-size: 1.5rem;
+  color: #2e3532;
+}
+
+.mobile-menu {
+  background-color: #ffffff;
+  padding: 0.5rem 1rem 1rem;
+}
+
+.mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.mobile-menu button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #2e3532;
+  transition: color 0.3s;
+}
+
+.mobile-menu button:hover {
+  color: #d64550;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+

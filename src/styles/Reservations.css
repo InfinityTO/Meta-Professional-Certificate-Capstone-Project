@@ -1,0 +1,39 @@
+.reservations {
+  flex: 1;
+}
+
+.reservations-section {
+  background-color: #2e3532;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D64550' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  color: white;
+  padding: 4rem 1rem;
+}
+
+.reservations-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.reservations h1 {
+  font-size: 2.5rem;
+  color: #f0c808;
+  margin-bottom: 2rem;
+}
+
+.form-container {
+  max-width: 42rem;
+  margin: 0 auto;
+  background-color: white;
+  color: #2e3532;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.form-container h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+

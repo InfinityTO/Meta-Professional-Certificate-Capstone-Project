@@ -1,0 +1,83 @@
+.footer {
+  background-color: #eae8e8;
+  padding: 3rem 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.footer-section h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #2e3532;
+  margin-bottom: 1rem;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .footer-logo {
+    align-items: flex-start;
+  }
+}
+
+.footer-logo-image {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-valeriya-1833349.jpg-IoqGpaqoRmosD7HAjBAElD2yZx6EXi.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-logo-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #2e3532;
+  margin-top: 0.5rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+@media (min-width: 768px) {
+  .footer-logo-text {
+    text-align: left;
+  }
+}
+
+.footer-section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-section li {
+  display: flex;
+  align-items: flex-start;
+}
+
+.bullet {
+  color: #d64550;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
