@@ -1,5 +1,8 @@
 # Meta Professional Certificate Capstone Project  
 
+
+![Final Project View](./Final-Project-View.png)
+
 This repository contains the **capstone project** for the **Meta Front-End Developer Professional Certificate**.  
 
 ## 📌 Project Overview  
