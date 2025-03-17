@@ -1,7 +1,13 @@
 # Meta Professional Certificate Capstone Project  
 
-
+## Final Project View
 ![Final Project View](./Final-Project-View.png)
+
+## Table Reservation Form
+![Table Reservation Form](./table-reservation-form.png)
+
+## Booking Confirmation
+![Booking Confirmation](./booking-confirmation.png)
 
 This repository contains the **capstone project** for the **Meta Front-End Developer Professional Certificate**.  
 
